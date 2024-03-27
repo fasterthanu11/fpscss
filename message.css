@@ -1,0 +1,450 @@
+:root {
+    --pattern: url(https://media.discordapp.net/attachments/910359531727511624/1162732185716006922/resunzxbros.png) repeat;
+    --logo: url(https://media.discordapp.net/attachments/1112474858081747014/1181005386447331439/logo_transparent2.png);
+}
+
+* {
+    border-radius: unset !important;
+    text-shadow: unset !important;
+    box-shadow: unset !important;
+    border-color: var(--dark) !important;
+    outline: unset !important;
+    -webkit-text-stroke: unset !important;
+}
+
+body {
+    background: #131313;
+    --secondary-1: #131313 !important;
+    --secondary-2: #131313 !important;
+    --secondary-3: #131313 !important;
+    --secondary-4: #131313 !important;
+    --secondary-5: #131313 !important;
+    --secondary-6: #131313 !important;
+    --black-5: #131313 !important;
+    --primary-1: var(--flow) !important;
+    --primary-2: var(--flow) !important;
+    --primary-3: var(--flow) !important;
+    --flow: #295c8d;
+    --alt: #1bff00;
+    --dark: #131313 !important;
+    --clr-primary-200: 21, 100%, 50%;
+    --clr-neutral-800: 0, 0%, 11%;
+    --clr-neutral-900: 0, 0%, 7%;
+}
+
+/* recoloring */
+/* white text */
+.info-key-cont {
+    color: white !important;
+}
+
+/* orange text */
+.death-cont .clan,
+.label-killed,
+.end-modal .top-name,
+.tab-info .list-value,
+.left-container .player .name .label,
+.description,
+.message .name:not(.friend),
+.available-rooms,
+.online,
+.clan-tag {
+    color: var(--flow) !important;
+}
+
+/* orange bg */
+.christmas .box,
+.endurance-progress,
+.exit-btn,
+.tooltip,
+.level-card,
+.progress .buy-btn,
+.progress-helper,
+.levels .level .progress,
+.levels-circle .lvl,
+.level-progress,
+.reqs,
+.tab > .label,
+.close {
+    background: var(--flow) !important;
+}
+
+/* dark text */
+/* lightdark bg */
+#gui .footer,
+.christmas .box.active,
+.state-cont div div,
+.button:hover,
+button:hover,
+.bg-progress,
+.bg-level,
+.rewards,
+.message.trade,
+.custom-checkbox > span:before,
+.mini-card .price,
+.store-skins .weapon {
+    background: #1c1c1c !important;
+    --hover-color: #1c1c1c !important;
+}
+
+/* dark bg */
+#gui,
+.info-key-cont,
+#continue,
+.inventory .left,
+.inventory .avatar,
+.gun,
+.select-regions-cont,
+.container-card .wrapper,
+.changelog-item,
+.info-icon,
+.clans,
+.container {
+    background: var(--dark) !important;
+}
+
+/* transparent dark */
+.death-cont .user-card,
+.death-cont,
+.esc-interface,
+.container-pre-end div,
+.alert-default,
+.tab-info,
+.tab-info .player,
+.kill-bar-cont .kill-bar-item,
+.spectator > div,
+.searching-game .top,
+.searching-game .center,
+.searching-game .bottom,
+.loading-scene .player .level,
+.loading-scene .player,
+.background,
+.left-container .player,
+.esc-interface .right-container {
+    background: #1313136b !important;
+}
+
+/* alt */
+.message .friend {
+    color: var(--alt) !important;
+}
+
+/* remove */
+.spectator .list-controls,
+#cmpPersistentLink,
+.weapons-cont .mWwn,
+.end-modal .bottom,
+.tab-info .head,
+.input-wrapper .info-key-cont,
+button > .triangle,
+button > .borders,
+button::before,
+button::after,
+.chat .info,
+.weapons-cont .list-weapons {
+    display: none !important;
+}
+
+/* transparent bg */
+.container-card .name,
+.mWwn,
+.description,
+.input,
+.messages,
+.vm--overlay {
+    background: transparent !important;
+}
+
+/* margin reset */
+.chat .input,
+.top-bar {
+    margin: unset !important;
+}
+
+.select-region,
+.select-mod,
+#dailyQuests > .tabs-wrapper > .tabs > .tab,
+#dailyQuests,
+.card-cont,
+.avatar-info,
+.user-info,
+.money,
+.icon-btn,
+button {
+    border: none !important;
+}
+
+button {
+    transform: none !important;
+}
+
+.input {
+    border: 0.15rem solid var(--secondary-5) !important
+}
+
+.select-region,
+.select-mod,
+.quest,
+#dailyQuests > .tabs-wrapper > .tabs,
+#dailyQuests,
+.card-cont:nth-child(2) {
+    background: var(--secondary-5) !important;
+}
+
+.card-cont:nth-child(2):hover {
+    background: var(--secondary-2) !important;
+}
+
+.reward,
+#dailyQuests > .tabs-wrapper > .tabs > .tab {
+    background: transparent !important;
+}
+
+.christmas .box.active {
+    outline: 0.2rem solid var(--flow) !important;
+}
+
+.christmas .box:hover {
+    outline: 0.2rem solid white !important;
+}
+
+.spectator .infos {
+    bottom: 4rem !important;
+    font-size: 1.25rem !important;
+}
+.right-interface {
+    padding-top: 20px;
+}
+.soc-group:nth-child(1),
+.soc-group:nth-child(2) {
+    background: transparent !important;
+    border: none;
+    visibility: hidden;
+}
+.soc-group:nth-child(1):hover,
+.soc-group:nth-child(2):hover {
+    background: none !important;
+    transform: scale(1.5);
+    visibility: transparent;
+}
+.right-interface .settings {
+    background: transparent;
+    border: none;
+    margin-left: -4px;
+    width: 20px !important;
+    transition: 0.5s;
+    z-index: 2;
+}
+.right-interface .settings:hover {
+    background: none;
+    transform: scale(1.5);
+}
+.right-interface {
+    z-index: 999 !important;
+}
+
+/* Left Menu */
+
+.left-icons, .icon-btn {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.text-icon {
+    display: none !important;
+}
+
+.left-icons .icon-btn:hover {
+    border-top: transparent !important;
+}
+
+/* font */
+@font-face {
+    font-family: Forza;
+    font-weight: 0 1000;
+    src: url(https://rawcdn.githack.com/irrvlo/fonts/a8f0567c4db9931a7f404e909d15c111c11710b1/Forza-Medium.ttf) format('TrueType');
+    font-display: swap
+}
+* {
+    font-family: Forza !important;
+    -webkit-text-stroke: unset !important;
+    text-shadow: unset !important;
+    box-shadow: unset !important;
+}
+
+.ach-cont {
+    top: 0 !important;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ach-cont > .animate-cont {
+    transform: none !important;
+    width: auto;
+    height: auto;
+}
+.animate-cont > svg {
+    display: none;
+}
+.animate-cont > .text {
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    margin: unset !important;
+    margin-left: 15rem !important;
+}
+.animate-cont > .text > span > span {
+    color: white !important;
+}
+
+.map-button.active,
+.mod-button.active {
+    border: .25rem solid var(--flow) !important;
+}
+
+.mini-map-cont {
+    top: 0.5rem !important;
+    left: unset !important;
+    right: 0.5rem !important;
+    display: flex !important;
+    gap: 0.25rem;
+}
+
+.mini-map-cont div {
+    position: unset !important;
+    display: flex !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+}
+
+.mini-map-cont .mod:before {
+    content: "("
+}
+
+.mini-map-cont .mod:after {
+    content: ")"
+}
+
+/* background */
+.pattern-bg,
+.bg-radial {
+    display: none;
+}
+
+@-webkit-keyframes animate {
+    to {
+        transform: translateY(30%);
+    }
+}
+
+.interface .background {
+    background: #111 no-repeat !important;
+    height: 300%;
+    background-position: 0px 0px;
+}
+
+.end-modal {
+     background: #111 no-repeat !important;
+}
+
+.weapons .mWwn,
+.interface .logo {
+    content: var(--logo) !important;
+    width: 5rem;
+    height: auto !important;
+}
+
+/* boring word shit ugh */
+:root{
+    --score-background: transparent;; /* color of Scoreboard background */
+    --score-radius: 0.25rem; /* the curve of the edge */
+    --score-padding-025: 0.25rem; /* Spacing */
+    --score-padding-050: 0.50rem; /* Spacing */
+    --yourName-Color: #fff; /* The Color for your name on the Scoreboard */
+    --friendlyName-color: #0e81ff; /* Changes your teammates name color */
+    --enemyName-color: #ff0000; /* The Color for the enemy names on the Scoreboard */
+    --k-d-s-color: #1cce6c; /* Changes the color of "Kill", "Death", and "Score" */
+}
+.desktop-game-interface>.tab-info>.head,
+.player-value>.star,.player-right-cont>.list{
+    display: none;
+}
+.desktop-game-interface>.tab-info{
+    position: absolute;
+    top: 3vh;
+    right: 0.25vw;
+    display: flex !important;
+    box-shadow: unset;
+    border-radius: var(--score-radius);
+    background: var(--score-background);
+    pointer-events: none;
+    min-width: 400px;
+    width: unset;
+}
+.tab-info>.players{
+    padding: var(--score-padding-050);
+}
+.tab-info>.players>.list,
+.player-left-cont>.list{
+    position: absolute;
+    bottom: -3.4vh;
+    right: 0;
+    color: var(--k-d-s-color);
+    background: var(--score-background);
+    padding: var(--score-padding-025);
+    border-radius: var(--score-radius);
+}
+.tab-info>.players>.player-list>.player{
+    background: transparent;
+    padding: unset;
+    margin-bottom: 0.1rem;
+}
+.player-left>.primary{
+    color: var(--yourName-Color) !important;
+}
+.player-left>.nickname{
+    color: var(--enemyName-color);
+    font-weight: bold;
+    text-shadow: unset;
+}
+.player-right>.player-value:nth-child(3){
+    margin-right: 0.25rem;
+}
+.players-cont>.player-right-cont>.player>.player-left>.nickname{
+    color: var(--friendlyName-color);
+}
+.player-left-cont>.player,
+.player-right-cont>.player{
+    background: transparent;
+}
+.players>.players-cont{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    border: unset !important;
+}
+.players-cont>.player-left-cont{
+    border-top: 2px solid #191d1e36;
+}
+.players-cont>.player-left-cont,
+.players-cont>.player-right-cont{
+    margin: unset;
+}
+
+.kill-bar-cont {
+    right: unset !important;
+    left: 2rem;
+    top: 5.5rem !important;
+    align-items: flex-start !important;
+}
+
+#play-btn {
+    background: #272727 !important;
+    border-radius: 15px 50px !important;
+}
+#play-btn .border-top,
+#play-btn .border-bottom {
+    background: none;
+    
